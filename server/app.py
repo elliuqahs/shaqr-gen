@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from shaqr import ShaQR
+from scripts.shaqr import ShaQR
 
 app = Flask(__name__)
 
